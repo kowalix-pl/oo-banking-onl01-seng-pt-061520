@@ -26,7 +26,6 @@ class Transfer
 end 
 
 
-
   def reverse_transfer
      @sender.balance = 1000
      @receiver.balance = 1000
